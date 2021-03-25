@@ -8,13 +8,27 @@ import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
+import Inline from "./components/Inline";
+import StyleSheet from "./components/StyleSheet";
+//import  "./appStyle.css";
+//import  style from ".appStyle.module.css";
+import Form from "./components/Form";
+
+
 
 class  App extends React.Component {
     render() { 
         return (  
          <div>
+             {/* <Form/>
+            <h1 className="error">Error</h1>
+             <h1 className={style.success}>Success</h1>
+             <Inline/>
+              <StyleSheet A="true"/>
+              <NameList/>
              <UserGreeting/>
-              {/* <ParentComponent/>
+              <ParentComponent/>
            <FunctionClick/>
              <ClassClick/>
             } <Counter/>
